@@ -1,0 +1,48 @@
+
+.sidebar-section{
+    display:flex;
+    background:#ab987a;
+}
+
+.sidebar{
+    height:100vh;
+    background-color: #0f1626;
+    width: 90px;
+    position: fixed;
+}
+
+.sidebar-toggle{
+    width:200px;
+}
+
+.sidebar-toggle-icons{
+    display: flex;
+    align-items: right;
+    justify-content:right;
+    cursor: pointer;
+}
+
+.sidebar-toggle-icons p svg{
+    background-color: #caebf2 ;
+    color: #ab987a;
+    margin-top: 30px;
+}
+
+
+
+/*=================DARK MODE========================*/
+#dark .sidebar-section{
+    display:flex;
+    background:#0f16267a;
+}
+#dark .sidebar-toggle-icons p svg{
+    color:#0f1626;
+}
+
+
+/* ==========MOBILE VIEW ========== */
+@media(max-width:600px){
+    .sidebar{
+        display:none;
+    }
+}

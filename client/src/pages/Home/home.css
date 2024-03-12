@@ -1,0 +1,123 @@
+.home-container{
+    height: 300px;
+    color:#caebf2;
+    padding-left: 130px;  
+    padding-right: 0px;
+    
+}
+.home-content h2 p{
+    padding: 10px;
+    padding-top: 10px;
+    margin-top: 50px;
+    font-family: italics;
+}
+
+.home-content h3{
+    color: #0f1626;
+    font-weight: bold;
+    font-family: italics;
+
+}
+.home-content h1{
+    color:#0f1626;
+     padding-top: 0px;
+     font-weight: bold;
+     font-family: italics;
+
+}
+.home-content h4{
+    font-family: italics;
+}
+.home-buttons{
+    font-weight: bold;
+
+    padding-top: 20px;
+}
+.home-buttons .btn-hire{
+    background-color: #0f1626;
+    width: 120px;
+    color:#caebf2;
+    font-weight: bold;
+
+}
+.home-buttons .btn-hire:hover{
+    background-color: #caebf2;
+    width: 150px;
+    color:#0f1626;
+    transition: 1s;
+}
+.home-buttons .btn-cv{
+    background-color: #0f1626;
+    color:#caebf2;
+    font-weight: bold;
+    margin-left: 10px;
+    width: 120px;
+}
+.home-buttons .btn-cv:hover{
+    background-color: #caebf2;
+    width: 150px;
+    color:#0f1626;
+    transition: 1s;
+    margin-left: 10px;
+}
+.theme-btn{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 50px;
+    width:50px;
+    background-color: #0f1626;
+    color:#ab987a;
+    margin-top: 20px;
+    text-align: center;
+    position: fixed;
+    right:0;
+    cursor:pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index:1;
+}
+
+
+ /* ==========DARK MODE========== */
+ #dark .home-content h3{
+    color: #caebf2;
+}
+ #dark .home-content h1{
+    color:#caebf2;
+}
+ #dark .home-content h2 p{
+    color: #caebf2;
+
+ }
+ #dark .home-content h4{
+    color:#caebf2;
+ }
+#dark .theme-btn{
+    background-color: #caebf2 ;
+    color:#0f1626;
+}
+
+ /* ==========MOBILE VIEW========== */
+ @media(max-width:600px){
+    .home-container{
+        padding: 0;
+        margin:0;
+        margin-top: 50px;
+    }
+    .home-content h2 p{
+        font-size: 20px;
+        padding-top:25px;
+    }
+    .home-content h3{
+        font-size: 20px;
+    }
+    .home-content h1{
+    font-size: 34px;
+    padding-top :1px;
+    font-weight:bold;
+    }
+    .home-content h4{
+        font-size:20px;
+    }
+ }

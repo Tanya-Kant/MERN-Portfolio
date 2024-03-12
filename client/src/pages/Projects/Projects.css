@@ -1,0 +1,130 @@
+.project{
+    padding: 20px;
+    margin: 50px 0px;
+    margin-left: 130px;
+    background-color:#caebf2;
+    box-shadow:  #0f1626 0px 14px 28px,  #0f1626 0px 10px 10px;
+
+}
+.project hr{
+    color: #0f1626;
+    width:400px;
+    margin:10px auto;
+    }
+.project h2{
+        font-weight: bold;
+        color:#0f1626;
+        font-family: italics;
+    }
+#ads{
+    margin:30px 0px 30px 0px;
+    color: #ab987a;
+}
+#ads .card-notify-badge{
+    position: absolute;
+    left:-10px;
+    top:-20px;
+    background-color: #ab987a;
+    text-align:center;
+    border-radius:30px 30px 30px 30px;
+    color:#0f1626;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size:14px;
+}
+.project .card image{
+    height:150px;
+    width:100%;
+}
+.project .card-detail-badge{
+    background-color:#0f1626;
+    text-align:center;
+    border-radius:30px 30px 30px 30px ;
+    color: #0f1626;
+    padding:5px 8px;
+    font-size: 14px;
+}
+.project .card-image-overly {
+    font-size:20px;
+}
+.project .card-image-overly span{
+    display: inline;
+    margin-left: 5px;
+    color:#caebf2;
+}
+.project .card{
+    background-color: #ab987a;
+    margin-bottom: 50px;
+}
+.project .card:hover{
+    background-color: #a9a9a9;
+    border-radius: 4px;
+    box-shadow:  #0f1626 0px 14px 28px,  #0f1626 0px 10px 10px;
+    transition:all 0.5s ease;
+}
+.ad-btn{
+    text-transform:uppercase;
+    width:150px;
+    height:40px;
+    display: block;
+    text-align: center;
+    background-color: #0f1626;
+    color:#caebf2;
+    border-radius:80px;
+    font-size:12 px;
+    font-weight: bold;
+    line-height: 35px;
+    text-decoration: none;
+    margin:20px auto 20px auto;
+    overflow:hidden;
+    position: relative;
+}
+.ad-btn:hover{
+    background-color: #caebf2;
+    color:#0f1626;
+    border:2px solid #0f1626;
+    transition: all 0.5s ease;
+    box-shadow:  #0f1626 0px 14px 28px,  #0f1626 0px 10px 10px;
+    width: 180px;
+    transition: 1s;
+
+}
+
+/* ==========DARK MODE========== */
+#dark .project{
+    box-shadow:  #caebf2 0px 14px 28px,  #caebf2 0px 10px 10px;
+    background-color:#0f1626 ;
+}
+#dark .project hr{
+    color:#caebf2;
+}
+#dark .project h2{
+    color: #caebf2;
+}
+#dark #ads{
+    color:#caebf2;
+}
+#dark #ads .card-notify-badge{
+    background-color: #caebf2;
+}
+#dark .project .card{
+    background-color: #caebf2;}
+#dark .project .card:hover{
+    box-shadow:  #caebf2 0px 14px 28px,  #caebf2 0px 10px 10px;
+}
+
+/* ==========MOBILE VIEW========== */
+@media(max-width:600px){
+    .project{
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+        width:100%;
+    } 
+    .project hr{
+        width: 280px;
+    }
+    .project .card{
+        margin-top:30px;
+    }
+}
